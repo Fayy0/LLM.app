@@ -6,6 +6,7 @@ This application allows you to compare responses from various large language mod
 Features:
 
  Multiple LLMs: Compare responses from GPT-3.5 Turbo, GPT-4, Llama, and Falcon.
+ 
  Real-Time Streaming: Get responses in real-time using Server-Sent Events (SSE).
  Context-Aware Responses: Models are prompted to use only the provided context to generate their responses.
  Detailed Metrics: Evaluate model responses based on relevance, accuracy, and response time.
