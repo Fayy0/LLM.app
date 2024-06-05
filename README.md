@@ -10,6 +10,11 @@ Features:
  Real-Time Streaming: Get responses in real-time using Server-Sent Events (SSE).
  Context-Aware Responses: Models are prompted to use only the provided context to generate their responses.
  Detailed Metrics: Evaluate model responses based on **relevance**, **accuracy**, and **response time** . 
+
+ This app uses :
+ - ChromaDB , as a vector database
+ - BeautifulSoup, to help in scraping
+ - SSE 'server sent events' , for streaming responses
  
 Getting Started:
 - Prerequisites
@@ -31,4 +36,3 @@ Before you begin, ensure you have the following installed:
 - To use the App
 Enter Your Query: In the search form, type in your query and submit.
 View Responses: The app will display responses from each model in real-time, along with detailed metrics for each response.
-<img width="1437" alt="Screenshot 2024-06-05 at 9 45 23 PM" src="https://github.com/Fayy0/LLM.app/assets/113535786/b5479901-3521-4a1b-9945-f9e665f1f3fa">
